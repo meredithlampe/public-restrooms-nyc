@@ -157,12 +157,22 @@ section h2 {
 #header_photo {
   /*background: url("../img/bg-pattern.png");*/
   /*background-image: url("../img/bg-pattern.png");*/
-  width: 500px;
-  height: 800px;
+  /*width: 500px;*/
+  /*height: 800px;*/
+}
+
+#masthead_title {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.header-content p {
+  color: gray;
 }
 
 #header_photo_img {
-  height: 800px;
+  height: 500px;
 }
 
 header.masthead {
@@ -171,7 +181,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: rgba(5, 5, 5, 0.7);
-  background: #ececec;
+  /*background: #ececec;*/
 }
 
 .nav-link {
