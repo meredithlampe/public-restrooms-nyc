@@ -230,8 +230,8 @@ header.masthead .device-container .screen img {
 }
 
 section.download {
-  position: relative;
-  padding: 150px 0;
+  /*position: relative;*/
+  padding: 0;
 }
 
 section.download h2 {
@@ -311,6 +311,10 @@ section.features .feature-item i {
   background: linear-gradient(to left, #7b4397, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#map {
+    height: 700px;
 }
 
 section.cta {

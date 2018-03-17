@@ -1,5 +1,5 @@
 
-initMap();
+// initMap();
 
 async function processData(map, directory, latlng) {
 //        var allTextLines = allText.split(/\r\n|\n/);
