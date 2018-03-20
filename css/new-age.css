@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a {
@@ -13,6 +13,7 @@ a {
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 a:hover, a:focus {
@@ -54,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto';
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -79,14 +80,14 @@ section h2 {
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: #050505;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 25px;
@@ -104,7 +105,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 25px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   /*text-transform: uppercase;*/
 }
@@ -453,7 +454,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   text-transform: uppercase;
 }
