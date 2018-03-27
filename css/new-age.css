@@ -74,6 +74,29 @@ section h2 {
   font-size: 50px;
 }
 
+.tooltip_name {
+  font-size: 14pt;
+}
+
+.tooltip_content {
+  width: 300px;
+  text-align: left;
+  padding: 5px 0px 5px 0px;
+}
+
+.tooltip_address {
+  color: #758088;
+  margin-bottom: 10px;
+}
+
+.tooltip_info_label {
+  margin-bottom: 3px;
+}
+
+.tooltip_info_content {
+  color: #758088;
+}
+
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
