@@ -5,6 +5,9 @@ async function processData(map, directory) {
     var data = JSON.parse(directory);
     for (var address in data) {
         let bathroom = data[address];
+        let directions_url =
+            "https://www.google.com/maps/dir/?api=1&destination="
+            + bathroom.lat_long.lat + "," + bathroom.lat_long.lng;
         var contentString =
             '<div class="tooltip_content">' +
                 '<div id="siteNotice">' +
@@ -20,6 +23,12 @@ async function processData(map, directory) {
                     '<span class="tooltip_info_content">' +
             (bathroom.handicap_accissible ? bathroom.handicap_accessible : 'Unknown') +
                     '</span>' +
+                '</div>' +
+                '<div class="tooltip_directions">' +
+            '       <a target="_blank" href=' + directions_url +
+                    '>' +
+            '           Directions' +
+                    '</a>' +
                 '</div>' +
             '</div>';
 
