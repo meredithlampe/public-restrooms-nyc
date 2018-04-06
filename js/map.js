@@ -1,5 +1,5 @@
 
-initMap();
+// initMap();
 
 async function processData(map, directory) {
     var data = JSON.parse(directory);
