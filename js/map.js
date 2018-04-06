@@ -14,17 +14,19 @@ async function processData(map, directory) {
                 '</div>' +
                 '<div class="tooltip_name">' + bathroom.name + '</div>' +
                 '<div class="tooltip_address">' + address + '</div>' +
-                '<div class="tooltip_info_label">Open Year Round: ' +
-                    '<span class="tooltip_info_content">' +
-            (bathroom.open_year_round ? bathroom.open_year_round : 'Unknown') +
-                    '</span>' +
+                '<div class="tooltip_details">' +
+                    '<div class="tooltip_info_label">Open Year Round: ' +
+                        '<span class="tooltip_info_content">' +
+                (bathroom.open_year_round ? bathroom.open_year_round : 'Unknown') +
+                        '</span>' +
+                    '</div>' +
+                    '<div class="tooltip_info_label">Handicap Accessible: ' +
+                        '<span class="tooltip_info_content">' +
+                (bathroom.handicap_accissible ? bathroom.handicap_accessible : 'Unknown') +
+                        '</span>' +
+                    '</div>' +
                 '</div>' +
-                '<div class="tooltip_info_label">Handicap Accessible: ' +
-                    '<span class="tooltip_info_content">' +
-            (bathroom.handicap_accissible ? bathroom.handicap_accessible : 'Unknown') +
-                    '</span>' +
-                '</div>' +
-                '<div class="tooltip_directions">' +
+        '<div class="tooltip_directions">' +
             '       <a target="_blank" href=' + directions_url +
                     '>' +
             '           Directions' +
