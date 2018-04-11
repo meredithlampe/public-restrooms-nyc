@@ -1,6 +1,8 @@
 
 // initMap();
 
+var openInfoWindow = null;
+
 async function processData(map, directory) {
     var data = JSON.parse(directory);
     for (var address in data) {
@@ -49,7 +51,11 @@ function addMarker(contentString, name, map, lat, long, address) {
         title: name,
     });
     marker.addListener('click', function () {
+        if (openInfoWindow) {
+            openInfoWindow.close();
+        }
         infowindow.open(map, marker);
+        openInfoWindow = infoWindow;
     });
 }
 

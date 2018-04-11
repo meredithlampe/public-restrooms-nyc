@@ -133,7 +133,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #707070;
+  color: #3074ff;
 }
 
 #mainNav .navbar-toggler {
@@ -165,7 +165,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #5e7c88;
+  color: #3074ff;
 }
 
 @media (min-width: 992px) {
@@ -177,7 +177,7 @@ section h2 {
     color: fade(white, 70%);
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: #5e7c88;
+    color: #3074ff;
   }
   #mainNav .navbar-nav > li > a,
   #mainNav .navbar-nav > li > a:focus {
@@ -185,7 +185,7 @@ section h2 {
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: #5e7c88;
+    color: #3074ff;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
