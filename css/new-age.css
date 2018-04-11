@@ -147,6 +147,7 @@ section h2 {
   font-family: 'IBM Plex Sans', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
   /*text-transform: uppercase;*/
+  letter-spacing: .5px;
 }
 
 #mainNav .navbar-nav > li > a.active {

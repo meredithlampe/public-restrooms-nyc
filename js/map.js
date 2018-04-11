@@ -126,6 +126,7 @@ function initMap() {
                 "stylers": [
                     {
                         "visibility": "off"
+                        "color": "#ffffff"
                     }
                 ]
             },
