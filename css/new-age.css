@@ -129,7 +129,7 @@ section h2 {
   font-family: 'IBM Plex Sans', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
@@ -169,6 +169,20 @@ section h2 {
   color: #3074ff;
 }
 
+#header_photo_img_small {
+  display: block;
+  height: 300px;
+}
+
+#header_photo_img {
+  display: none
+}
+
+.toilet_image {
+  display: block;
+  margin: auto;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -176,6 +190,7 @@ section h2 {
   }
   #mainNav .navbar-brand {
     color: fade(white, 70%);
+    font-size: 25px;
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: #3074ff;
@@ -206,6 +221,13 @@ section h2 {
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
     color: #5e7c88;
   }
+  #header_photo_img {
+    height: 500px;
+    display: inline;
+  }
+  #header_photo_img_small {
+    display: none;
+  }
 }
 
 #header_container {
@@ -228,10 +250,6 @@ section h2 {
   color: gray;
 }
 
-#header_photo_img {
-  height: 500px;
-}
-
 header.masthead {
   position: relative;
   width: 100%;
@@ -242,7 +260,12 @@ header.masthead {
 }
 
 .nav-link {
-  padding-left: 60px !important;
+  padding-left: 15px !important;
+}
+@media (min-width: 992px) {
+  .nav-link {
+    padding-left: 60px !important;
+  }
 }
 
 header.masthead .header-content {
