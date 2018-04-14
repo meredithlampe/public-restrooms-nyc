@@ -42,7 +42,7 @@ async function processData(map, directory) {
 }
 
 function addMarker(contentString, name, map, lat, long, address) {
-    var infowindow = new google.maps.InfoWindow({
+    var infoWindow = new google.maps.InfoWindow({
         content: contentString
     });
     var marker = new google.maps.Marker({
@@ -54,7 +54,7 @@ function addMarker(contentString, name, map, lat, long, address) {
         if (openInfoWindow) {
             openInfoWindow.close();
         }
-        infowindow.open(map, marker);
+        infoWindow.open(map, marker);
         openInfoWindow = infoWindow;
     });
 }
@@ -125,8 +125,7 @@ function initMap() {
                 "featureType": "poi",
                 "stylers": [
                     {
-                        "visibility": "off"
-                        "color": "#ffffff"
+                        "visibility": "off",
                     }
                 ]
             },
