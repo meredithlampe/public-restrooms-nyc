@@ -30,6 +30,16 @@ a:hover, a:focus {
   margin-left: 18px;
 }
 
+.my_column {
+  width: 460px;
+  margin: auto;
+  padding-left: 12px;
+}
+
+.nudge_left {
+  margin-left: -12px;
+}
+
 .link-inline {
   color: #707070;
   font-weight: bold;
@@ -471,6 +481,16 @@ section.cta .overlay {
 
 .no_margin {
   margin: 0px;
+}
+
+.info_left {
+  width: 460px;
+  margin: auto;
+  padding-left: 30px;
+}
+
+.info_right {
+  width: 460px;
 }
 
 
