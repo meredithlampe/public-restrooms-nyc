@@ -489,6 +489,13 @@ section.cta .overlay {
   padding-left: 30px;
 }
 
+.info_left h3, .info_right h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #707070;
+  margin-bottom: 25px;
+}
+
 .info_right {
   width: 460px;
 }
