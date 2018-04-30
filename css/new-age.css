@@ -16,6 +16,10 @@ a {
   font-family: 'IBM Plex Sans', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+#about {
+  padding-left: 20px;
+}
+
 a:hover, a:focus {
   color: #707070;
 }
@@ -28,12 +32,6 @@ a:hover, a:focus {
 
 #header {
   margin-left: 18px;
-}
-
-.my_column {
-  width: 460px;
-  margin: auto;
-  padding-left: 12px;
 }
 
 .nudge_left {
@@ -283,7 +281,7 @@ header.masthead {
 }
 
 header.masthead .header-content {
-  max-width: 460px;
+  max-width: 420px;
   margin-bottom: 100px;
   text-align: left;
   margin: auto;
@@ -360,6 +358,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
+  text-align: left;
   margin-bottom: 30px;
 }
 
@@ -451,7 +450,7 @@ section.cta .cta-content h2 {
 }
 
 .header_title_container {
-  width: 460px;
+  width: 420px;
   margin: auto;
 }
 
@@ -484,22 +483,31 @@ section.cta .overlay {
 }
 
 .info_left {
-  width: 460px;
+  width: 420px;
   margin: auto;
-  padding-left: 30px;
 }
 
-.info_left h3, .info_right h3 {
+.info_row h3 {
   font-size: 20px;
   font-weight: bold;
   color: #707070;
   margin-bottom: 25px;
 }
 
-.info_right {
-  width: 460px;
+.centered {
+  margin: auto;
 }
 
+.info_right {
+  width: 420px;
+  margin: auto;
+}
+
+@media (min-width: 992px) {
+  .info_row {
+    margin-bottom: 20pt;
+  }
+}
 
 footer {
   padding: 25px 0;
